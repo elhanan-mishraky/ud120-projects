@@ -99,6 +99,8 @@ def featureFormat( dictionary, features, remove_NaN=True, remove_all_zeroes=True
         if append:
             return_list.append( np.array(tmp_list) )
 
+        # return_list.append(np.array([0., 200000., 1000000]))
+
     return np.array(return_list)
 
 
